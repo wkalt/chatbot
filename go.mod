@@ -11,5 +11,3 @@ require (
 	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/lib/pq v1.10.9
 )
-
-replace github.com/wkalt/migrate => ../../projects/migrate
