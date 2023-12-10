@@ -1,0 +1,24 @@
+_metadata:
+  major_version: 1
+display_information:
+  name: Bender
+features:
+  bot_user:
+    display_name: Bender
+    always_online: false
+oauth_config:
+  scopes:
+    bot:
+      - bot
+      - links:write
+      - links:read
+      - chat:write
+      - app_mentions:read
+settings:
+  event_subscriptions:
+    bot_events:
+      - app_mention
+  org_deploy_enabled: false
+  socket_mode_enabled: true
+  is_hosted: false
+  token_rotation_enabled: false
