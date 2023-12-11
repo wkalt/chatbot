@@ -6,8 +6,6 @@ import (
 	"github.com/slack-go/slack/slackevents"
 )
 
-var motdCache = map[string]string{}
-
 type CommandHandler func(user string, matches []string, ev *slackevents.MessageEvent) (string, error)
 
 type Command struct {
